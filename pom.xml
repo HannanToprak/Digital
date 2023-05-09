@@ -15,12 +15,12 @@
         <buildTimestamp>${maven.build.timestamp}</buildTimestamp> <!-- cmdline-overridable timestamp for use within pom.xml -->
         <build.timestamp>${buildTimestamp}</build.timestamp>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <version.org.slf4j>1.7.24</version.org.slf4j>
+        <version.org.slf4j>1.7.36</version.org.slf4j>
     </properties>
 
     <distributionManagement>
         <site>
-            <id></id>
+            <id/>
             <url>file://${pom.basedir}/_stage</url>
         </site>
     </distributionManagement>
