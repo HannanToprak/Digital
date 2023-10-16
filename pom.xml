@@ -20,7 +20,7 @@
 
     <distributionManagement>
         <site>
-            <id></id>
+            <id/>
             <url>file://${pom.basedir}/_stage</url>
         </site>
     </distributionManagement>
@@ -327,7 +327,7 @@
         <dependency>
             <groupId>org.json</groupId>
             <artifactId>json</artifactId>
-            <version>20220924</version>
+            <version>20231013</version>
         </dependency>
 
         <dependency>
